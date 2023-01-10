@@ -3,8 +3,13 @@
   padding: 0;
 }
 
-.header1 {
-  background: #e5e5e5;
+.header {
+  padding-top: 40px;
+  padding-bottom: 328px;
+}
+
+.container {
+  background-image: url("./images/bg-sec1.jpg");
   padding-top: 40px;
   padding-bottom: 328px;
 }
@@ -80,11 +85,12 @@
 .input {
   margin: auto;
   text-align: center;
-  /* align-items: center; */
+  align-items: center;
+  position: absolute;
 }
 
 .search-input {
-  /* text-align: center; */
+  text-align: center;
   max-width: 360px;
   height: 60px;
   font-family: "Poppins";
@@ -95,6 +101,13 @@
   background: rgba(255, 255, 255, 0.5);
   border: 1px solid #000000;
   border-radius: 30px;
+  position: relative;
+  right: 0;
+  bottom: 0;
+}
+
+.search-icon {
+  height: 24px;
 }
 
 @media (max-width: 640px) {
@@ -123,11 +136,6 @@
 
 /* section2 */
 
-.header {
-  padding-top: 40px;
-  padding-bottom: 328px;
-}
-
 .sec-title {
   font-family: "Poppins";
   font-weight: 500;
@@ -140,6 +148,7 @@
 .sec-reasonsblocks {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .sec-reasonsblock {
@@ -197,9 +206,10 @@
     align-items: center;
   }
 }
-
-.container {
+/* sec3 */
+.container1 {
   display: flex;
+  gap: 97px;
 }
 
 .sec-left {
@@ -216,6 +226,10 @@
   color: #000000;
 }
 
+.onepoint-list-modern {
+  display: flex;
+  justify-content: space-between;
+}
 .word {
   padding-bottom: 20px;
   font-family: "Poppins";
@@ -225,6 +239,9 @@
   color: #000000;
 }
 
+.modern-png {
+  vertical-align: center;
+}
 .text2 {
   max-width: 773px;
   font-family: "Poppins";
@@ -234,12 +251,38 @@
   color: #000000;
 }
 
+.sec-list {
+  margin-top: 40px;
+}
+
+.list-point {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+}
+
+.list-png {
+  height: 20px;
+  width: 20px;
+}
+
 .sec-right {
-  max-width: 870px;
-  height: 600px;
-  background: #f3f5f7;
   display: flex;
   align-items: center;
-  padding-left: 414.5px;
-  padding-right: 414.5px;
+  max-width: 870px;
+  height: 600px;
+}
+
+.sec3-bg {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 650px) {
+  .container1 {
+    flex-direction: column;
+  }
 }
