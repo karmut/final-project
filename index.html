@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -24,7 +22,7 @@
               <a href="" class="menu-item"
                 >Furniture
                 <img
-                  src="./icons/Vector 114.png"
+                  src="./icons/pfeil.png"
                   alt="furniture-icon"
                   class="menu-hook"
                 />
@@ -42,13 +40,9 @@
             Bringing interiors to life, understanding the person or people
             living in a home is far greater need in design.
           </h1>
-          <div class="input">
-            <input
-              type=""
-              placeholder="Search Furniture"
-              class="search-input"
-            />
-            <img src="./icons/search-icon.png" alt="" class="search-icon" />
+          <div class="input-wrapper">
+            <input type="text" class="input" placeholder="Search Furniture" />
+            <button class="input-button"></button>
           </div>
         </div>
       </div>
@@ -107,7 +101,11 @@
 
             <div class="onepoint-list-modern">
               <h3 class="word">Modern</h3>
-              <img src="./icons/minus.png" alt="minus" class="modern-png" />
+              <img
+                src="./icons/minus-sec3.svg"
+                alt="minus"
+                class="modern-png"
+              />
             </div>
 
             <p class="text2">
@@ -144,7 +142,81 @@
     </div>
     <!-- 4-fourth -->
     <div class="header">
-      <div class="wrapper"></div>
+      <div class="wrapper">
+        <h1 class="big-title">Featured Product</h1>
+        <div class="cards">
+          <div class="card">
+            <div class="photo">
+              <img src="./images/bg-sec4-pic1.jpg" alt="" class="sec4-pro" />
+            </div>
+            <div class="description">
+              <h2 class="product-title">Product...</h2>
+              <p class="subtitle">Poster</p>
+              <div class="stars"></div>
+              <h3 class="price">199$</h3>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="photo">
+              <img src="./images/bg-sec4-pic2.jpg" alt="" class="sec4-pro" />
+            </div>
+            <div class="description">
+              <h2 class="product-title">Product...</h2>
+              <p class="subtitle">Poster</p>
+              <div class="stars"></div>
+              <h3 class="price">199$</h3>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="photo">
+              <img src="./images/bg-sec4-pic3.jpg" alt="" class="sec4-pro" />
+            </div>
+            <div class="description">
+              <h2 class="product-title">Product...</h2>
+              <p class="subtitle">Poster</p>
+              <div class="stars"></div>
+              <h3 class="price">199$</h3>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="photo">
+              <img src="./images/bg-sec4-pic4.jpg" alt="" class="sec4-pro" />
+            </div>
+            <div class="description">
+              <h2 class="product-title">Product...</h2>
+              <p class="subtitle">Poster</p>
+              <div class="stars"></div>
+              <h3 class="price">199$</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end 4-sec -->
+    <div class="descr-header">
+      <div class="wrapper">
+        <h2 class="descr-sec-title">what they say about our services</h2>
+        <div class="descr">
+          <div class="descr-item">
+            <h3 class="descr-item-title">Best planning service</h3>
+            <p class="descr-text">
+              I had fantastic experience at shady rhymes with pax planner, shady
+              rhymes was so helpful and friendly and went above and beyond to
+              help me configure my perfect walk in wardobe room.
+            </p>
+            <div class="name-block">
+              <img src="./images/sec-5-img.jpg" alt="" class="name-photo" />
+              <div class="name-descr">
+                <h2 class="name">John doe</h2>
+                <p class="name-text">Architect in agung podomoro land</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
